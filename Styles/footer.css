@@ -1,0 +1,164 @@
+footer{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	float: left;
+	background-color: red;
+	border-top: 3px solid  #adad85;
+	border-bottom:  3px solid  #adad85;  
+	margin-right: 200px;
+	
+}
+
+.footer-col2{
+	display: inline-block;
+	margin-left:20px;
+	width: 275px;
+	
+	float: left;
+	
+
+
+
+}
+.footer-col1{
+	
+	margin-left:20px;
+	width: 275px;
+	
+	float: left;
+
+}
+.footer-col3{
+	display: inline-block;
+margin-left:20px;
+	width: 275px;
+	
+	float: left;
+}
+
+.footer-col4{
+	
+	margin-left:20px;
+	width: 275px;
+	
+	float: left;
+	margin-top: 20px;
+	
+
+}
+.add p{
+
+	margin: 0px 25px 61px 10px;
+}
+.club{
+margin-top: 0px;
+margin-left: 25px;
+}
+
+.footer-col4 h4{
+	margin-left:20px;
+	width: 275px;
+	
+	float: left;
+	margin-top: 20px;
+	
+}
+.footer-col1 , .footer-col2 ,.footer-col3,.footer-col4  h4{
+	margin-top: 15px;
+	text-transform: uppercase;
+	color: #444;
+	color: #444;
+	font-family: arial;
+	font-size: 14px;
+	
+}
+
+
+.quick-links a{
+	padding-bottom: 8px;
+	margin:5px 10px 5px 5px;
+	display: block;
+	
+	color: #444;
+	font-family: arial;
+	font-size: 14px;
+
+
+}
+
+.quick-links a:hover{
+	color:maroon
+}
+
+div .footer-col div.blog-title h3{
+	margin:10px 10px 0 10px;
+	font-family: arial;
+	font-size: 15px; 
+
+}
+
+.blog-title a{
+	margin:10px 10px 0 10px;
+	font-weight:bold;
+	font-family: Eras Medium ITC;
+	color:#444;
+}
+
+.blog-title a:hover{
+	color:maroon;
+}
+
+.blog-title p{
+	margin:0 10px 0 10px;
+	font-family: arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#4d4d33;
+}
+
+.blog-description p{
+	font-family: arial;
+	margin:10px 10px 8px 10px;
+	font-size: 14px;
+	color: #444
+
+}
+
+.blog-title h3{
+	color: #3d3d29;
+	font-family: arial;
+	border-bottom: 1.5px solid #444;
+}
+
+.blog-description a{
+	float: right;
+	font-size: 13.5px;
+	color:red;
+
+}
+
+.hlogo {
+	
+
+	float: left;
+	
+    
+
+
+
+}
+#tabel01{
+
+	border-spacing: 10px;
+	float: left;
+
+
+}
+table{
+border-spacing: 15px;	
+}
+
+.map{
+	margin-top: -20px;
+}
