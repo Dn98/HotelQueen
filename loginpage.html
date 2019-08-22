@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="Styles/log.css">
+<link rel="stylesheet" type="text/css" href="Styles/Header.css">
+<link rel="stylesheet" type="text/css" href="Styles/footer.css">
+
+<script type="text/javascript" src="validate.js"></script>
+	
+	<title> User Login Page</title>
+</head>
+<body>
+
+<!--Header Begins-->
+
+	<header class="siteHeader">
+	<div class="backimage">
+
+		<div class="upperLine"></div>
+			
+		<table class="tbl">
+			<tr>
+				<td class="logoBox" align="left" valign="center">
+
+					<img class="logo" src="Images/Header/logo.png" height="150">
+						
+				</td>
+
+				<td  class="titleBox" align="center">
+				<div class="xx">
+				<div class="name">
+					<h1 class="title" style="color:#FF4500;"  	style="font-weight: 2000;"> Hotel Queen</h1>
+					</div>
+					
+						<p style="color:black; font-size:25px;"><marquee>Welocome To Our Heaven</marquee></p>
+					</div>
+						
+				</td>
+
+				<td class="loginBox" align="center">
+
+					<table width="100%">
+						
+						<tr class="loginRow">
+
+							<td align="right">
+								<button class="loginBtn"> Log in </button>
+							</td>							
+						</tr>
+
+						<tr class="signinRow">
+							<td align="right">
+							<button class="signinBtn"> Sign Up </button>
+							</td>
+						</tr>
+
+					</table>
+						
+				</td>
+			</tr>			
+		</table>
+</div>
+
+
+
+		<div class="lowerLine"></div>
+		<div class="nav">
+		<table width="100%">
+			<tr class="navBar">
+				<td class="searchBox" align="left" valign="center">
+
+					
+						<input type="text" name="search" class="search">
+						<input type="submit" value="Search" class="sBtn">
+			
+					
+				</td>
+
+				<td class="navItem" align="center">
+					OverView
+				</td>
+
+				<td class="navItem" align="center"><a href="home.htm/" style="text-decoration:none; color:black;">
+					Facilities</a>
+				</td>
+
+				<td class="navItem" align="center">
+					Photos
+				</td>
+
+				<td class="navItem" align="center">
+					Reservation
+				</td>
+
+				<td class="navItem" align="center">
+					User Account
+				</td>
+
+				<td class="navItem" align="center">
+					Contact Us
+				</td>
+
+				<td class="navItem" align="center">
+					Feedback
+				</td>
+			</tr>
+		</table>
+	</header>
+	</div>
+
+
+<!--Header Ends-->
+
+<!--Log In Form Begins-->
+
+<h2 align="Center">Login Page</h2>
+<form onsubmit="return validate()" action="home.html" method="GET">
+  
+  <div class="container">
+    <label for="uname"><b>Username or E-mail</b></label>
+    <input type="text" placeholder="****@gmail.com" name="uname" id="email" required>
+
+    <br>
+    <p id="vemail" style="color: #ff0000; padding-left: 20px; display: none;" > * Please enter a valid E-Mail Address</p>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+   <a href="Home.html">
+    <button type="button" class="cancelbtn">Cancel</button>
+   </a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+<!--Log In Page Ends-->
+
+<!--Footer Begins-->
+
+<div class="footer">
+
+    <div class="footer-col1">
+      <h4>Stay Connected</h4>
+      <table id="table02" style="width:0%">
+          <tr>
+            <th><img src="images/Header/fb.png" width="30" height="30"></th>
+            <th><img src="images/Header/ins.png" width="30" height="30"></th>
+            
+         </tr>
+          <tr>
+            <th> <img src="images/Header/g.png" width="30" height="30"></th>
+            <th><img src="images/Header/tw.png" width="30" height="30"></th>
+              
+            
+          </tr>
+
+
+      </table>
+
+
+        <p style="color:red font-size:15px">Copyrights @ 2018| All Right Reserved</p>
+
+      <div class="tweet">
+       
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="footer-col2">
+      <h4>Quick Links</h4>
+
+        <div class="quick-links">
+
+          <ul class="fa-ul">
+            <li><a href="#"></i>      Your Bookings..</a></li>
+            <li><a href="#"></i>      About us..</a></li>
+            <li><a href="#"></i>      This is a link</a></li>
+            <li><a href="#"></i>      This is a link</a></li>
+            
+        
+          </ul>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="footer-col3">
+      <h4>We Accept</h4><br>
+      <center>
+      <table id="table01" style="width:0%">
+        <tr>
+          <th><img src="images/Header/vis.png" width="30" height="30"></th>
+          <th><img src="images/Header/vs.png" width="30" height="30"></th>
+        </tr>
+        <tr>
+            <td> <img src="images/Header/pay.png" width="55" height="30"> </td>
+            <td><img src="images/Header/mas.png" width="40" height="30"></td>
+
+        </tr>
+        
+      </table></center>
+        
+     
+      </div>
+
+
+      
+         <div class="footer-col4">
+      <h4>We Are Here</h4><br>
+      <div class="map">
+      	<img src="images/Header/map.png" width="120" height="120">
+      	 <div class="add">
+    
+   </div>
+      	   </div>
+
+ 
+     </div>
+     
+
+      </div>
+
+
+    </div>
+
+<p class= "club" ><br>
+<br><B>
+
+Our Address</B><br>
+<br>
+Queen Hotels,<br>
+NO. 17,<br>
+Galle Road,<br>
+Colombo 14,<br>
+Srilanka.<br>
+<br>
+</p>
+    
+  </div>
+
+    </div>
+
+<!--Footer Ends-->
+	
+</body>
+</html>
