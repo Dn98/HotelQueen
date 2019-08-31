@@ -1,0 +1,14 @@
+This is a web site for the Hotel Queen. 
+There are photos, website contents and the validations also.
+
+	1.Login page
+	2.Register Page
+	3.Home page
+	4.OverView Page
+	5.Photos Page
+	6.Facilities page
+	7.Reservation page
+	8.Contant Us page
+	
+Specially there are two types of Header and Footer.
+
